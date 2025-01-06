@@ -32,8 +32,7 @@ This project is an Android application designed for a smooth and interactive mov
 
 ## **Screenshots**
 
-<img src="https://github.com/user-attachments/assets/bd882427-62b0-4696-b8bf-fd45f5140df6" alt="Home Page Screenshot" width="200" />
-<img src="https://github.com/user-attachments/assets/ef3ae953-d5c7-492b-91ad-c79e48d854a0" alt="Ticket Selection Screenshot" width="200" />
-<img src="https://github.com/user-attachments/assets/529a0e56-d0f5-4311-84bc-58bab477c6e0" alt="Order Confirmation Screenshot" width="200" />
-
+<img src="https://github.com/user-attachments/assets/6661d163-e9e9-4dae-81a6-1c19c4db970e" alt="Home Page Screenshot" width="200" />
+<img src="https://github.com/user-attachments/assets/d6507895-abe6-47c1-8c59-1c0ff5136ba6" alt="Ticket Selection Screenshot" width="200" />
+<img src="https://github.com/user-attachments/assets/04e8d0f6-9e77-47ce-ab1d-03975a947e7a" alt="Order Confirmation Screenshot" width="200" />
 
