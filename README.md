@@ -31,5 +31,9 @@ This project is an Android application designed for a smooth and interactive mov
 - Maintains the current selection of tickets, theater, and date until the purchase is completed or canceled.
 
 ## **Screenshots**
-![1736175533074](https://github.com/user-attachments/assets/bd882427-62b0-4696-b8bf-fd45f5140df6)
+
+<img src="https://github.com/user-attachments/assets/bd882427-62b0-4696-b8bf-fd45f5140df6" alt="Home Page Screenshot" width="500" />
+<img src="https://github.com/user-attachments/assets/ef3ae953-d5c7-492b-91ad-c79e48d854a0" alt="Ticket Selection Screenshot" width="500" />
+<img src="https://github.com/user-attachments/assets/529a0e56-d0f5-4311-84bc-58bab477c6e0" alt="Order Confirmation Screenshot" width="500" />
+
 
