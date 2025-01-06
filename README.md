@@ -29,3 +29,7 @@ This project is an Android application designed for a smooth and interactive mov
 
 ### 6. **Persistent State Management**
 - Maintains the current selection of tickets, theater, and date until the purchase is completed or canceled.
+
+## **Screenshots**
+![1736175533074](https://github.com/user-attachments/assets/bd882427-62b0-4696-b8bf-fd45f5140df6)
+
