@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UIDrillMovies</string>
+    <string name="title">מלך האריות</string>
+    <string name="order">ביצוע הזמנה</string>
+    <string name="get_tickets">סיום הזמנה</string>
+    <string name="summary">"\"מלך האריות\" של דיסני עוסק באריה צעיר בשם סימבה, יורש העצר של סוואנה אפריקאית.\nאביו המלך נהרג בתקרית שדודו סקאר גרם לכך, סקאר שיכנע את סימבה לברוח כי להקת האריות של סימבה תטיל עליו את האחריות למות אביו.\nסימבה חי חיים של \"ללא דאגות\" עם חבריו טימון ופומבה, זוג סוריקטה וחזיר יבלות עד שלפתע, חברות הילדות של סימבה, נאלה, מוצאת את סימבה.\nהיא מתחננת שסימבה יעזור ללהקת אריות הסובלת תחת שלטונו של סקאר ולקיחת האחריות על כס המלכות שהוענק לו, מה שקרה לאחר שכנועים רבים. "</string>
+    <string name="theater">בחירת אולם</string>
+    <string-array name="theaters">
+        <item>יבנה</item>
+        <item>ראשון לציון</item>
+        <item>ירושלים</item>
+        <item>נתניה</item>
+        <item>תל אביב</item>
+        <item>אשדוד</item>
+    </string-array>
+    <string name="tickets_adult">כרטיס מבוגר</string>
+    <string name="tickets_child">כרטיס ילד</string>
+    <string name="order_tickets">הזמנת כרטיסים</string>
+    <string name="date">בחירת תאריך</string>
+    <string name="cancel">ביטול</string>
+    <string name="ok">אישור</string>
+    <string name="buy_tickets">רכישת כרטיסים</string>
+    <string name="reservation">סיכום הזמנה:</string>
+    <string name="error_input">שגיאה!\nנא לבדוק את הפרטים.</string>
+    <string name="error_fill">שגיאה!\n נא למלא פרטים תחילה.</string>
+    <string name="purchase_successful">הרכישה בוצעה בהצלחה.</string>
+    <string name="theater_choice">אולם: %1$s</string>
+    <string name="adult_choice">כרטיס מבוגר: %1$s</string>
+    <string name="child_choice">כרטיס ילד: %1$s</string>
+    <string name="date_choice">תאריך: %1$s</string>
+    <string name="total_ils">סך הכל: %1$s ש\"ח</string>
+    <string name="theater_successful">אולם נבחר בהצלחה.</string>
+    <string name="order_successful">מילוי הפרטים בוצעו בהצלחה.</string>
+
+</resources>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">UIDrillMovies</string>
+    <string name="title">The Lion King</string>
+    <string name="order">Make An Order</string>
+    <string name="get_tickets">Get Tickets</string>
+    <string name="summary">Disney’s The Lion King is about a young lion named Simba, who is the crown prince of an African Savanna.\nHis father, the king, is killed in an incident which his uncle Scar convinces him he caused, though Scar actually staged it.\nScar convinces Simba to run away because Simba’s pride of lions will hold him responsible for his father’s death.\nSimba does and lives a life of “no worries” with his friends Timon and Pumbaa, a meerkat and warthog pair, until eventually, Simba’s childhood friend Nala finds Simba.\n She pleads that Simba help the pride suffering under Scar’s rule, and take responsibility for the throne which was rightfully bestowed upon him, which he does after much convincing.</string>
+    <string name="theater">Choose a theater</string>
+    <string-array name="theaters">
+        <item>Yavne</item>
+        <item>Rishon LeZion</item>
+        <item>Jerusalem</item>
+        <item>Netanya</item>
+        <item>Tel Aviv</item>
+        <item>Ashdod</item>
+    </string-array>
+    <string name="tickets_adult">Adult Tickets</string>
+    <string name="tickets_child">Child Tickets</string>
+    <string-array name="tickets">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="order_tickets">Order tickets</string>
+    <string name="date">Select a date</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="buy_tickets">Buy Tickets</string>
+    <string name="reservation">Here your reservation:</string>
+    <string name="error_input">Error!\nPlease check your input.</string>
+    <string name="error_fill">Error!\nPlease fill the options first.</string>
+    <string name="purchase_successful">The purchase was made successfully.</string>
+    <string name="theater_choice">Theater: %1$s</string>
+    <string name="adult_choice">Adult Tickets: %1$s</string>
+    <string name="child_choice">Child Tickets: %1$s</string>
+    <string name="date_choice">Date: %1$s</string>
+    <string name="total_ils">Total: %1$s ILS</string>
+    <string name="theater_successful">Theater successfully selected.</string>
+    <string name="order_successful">The details have been filled in successfully.</string>
+</resources>

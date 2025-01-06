@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    android:layout_margin="15dp"
+    android:background="@color/gray"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="@string/order_tickets"
+        android:textSize="40sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/theater_menu"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:hintTextColor="@color/blue"
+        app:boxStrokeColor="@color/blue"
+        android:textColorHint="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/title">
+
+        <AutoCompleteTextView
+            android:id="@+id/theater"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/theater_icon"
+            android:drawablePadding="10dp"
+            android:hint="@string/theater"
+            android:inputType="none"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/adult_menu"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:hintTextColor="@color/blue"
+        app:boxStrokeColor="@color/blue"
+        android:textColorHint="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/theater_menu">
+
+        <AutoCompleteTextView
+            android:id="@+id/adult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/adult_icon"
+            android:hint="@string/tickets_adult"
+            android:inputType="none"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:hintTextColor="@color/blue"
+        app:boxStrokeColor="@color/blue"
+        android:textColorHint="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/adult_menu">
+
+        <AutoCompleteTextView
+            android:id="@+id/child"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/child_icon"
+            android:hint="@string/tickets_child"
+            android:inputType="none"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/date_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            app:icon="@drawable/date_icon"
+            app:iconTint="@color/blue"
+            android:hint="@string/date"/>
+
+        <TextView
+            android:id="@+id/payment"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:padding="8dp"
+            android:textColor="@color/blue"
+            android:drawablePadding="7dp"
+            app:drawableStartCompat="@drawable/payment_icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cancel_button"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                app:icon="@drawable/cancel_icon"
+                app:iconTint="@color/red"
+                app:iconGravity="textStart"
+                app:iconPadding="10dp"
+                android:text="@string/cancel"/>
+
+            <Button
+                android:id="@+id/ok_button"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                app:icon="@drawable/ok_icon"
+                app:iconTint="@color/green"
+                app:iconGravity="textStart"
+                app:iconPadding="10dp"
+                android:text="@string/ok" />
+        </LinearLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

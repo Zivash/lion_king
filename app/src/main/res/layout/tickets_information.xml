@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bottom_sheet_background"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="12dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="60dp">
+
+        <TextView
+            android:id="@+id/reservation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:text="@string/reservation"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/theater_selected"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="@id/reservation"
+            app:layout_constraintStart_toStartOf="@id/reservation"
+            app:layout_constraintTop_toBottomOf="@id/reservation"/>
+
+        <TextView
+            android:id="@+id/adult_tickets"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="@id/theater_selected"
+            app:layout_constraintStart_toStartOf="@id/theater_selected"
+            app:layout_constraintTop_toBottomOf="@id/theater_selected"/>
+
+        <TextView
+            android:id="@+id/child_tickets"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="@id/adult_tickets"
+            app:layout_constraintStart_toStartOf="@id/adult_tickets"
+            app:layout_constraintTop_toBottomOf="@id/adult_tickets"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="@id/child_tickets"
+            app:layout_constraintStart_toStartOf="@id/child_tickets"
+            app:layout_constraintTop_toBottomOf="@id/child_tickets"/>
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="@id/date"
+            app:layout_constraintStart_toStartOf="@id/date"
+            app:layout_constraintTop_toBottomOf="@id/date"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buy_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:strokeColor="@color/white"
+            style="?attr/materialButtonOutlinedStyle"
+            android:text="@string/buy_tickets"
+            android:textColor="@color/white"
+            app:cornerRadius="15dp"
+            android:drawableEnd="@drawable/ticket_icon"
+            app:rippleColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@id/total"
+            app:layout_constraintStart_toStartOf="@id/total"
+            app:layout_constraintTop_toBottomOf="@id/total"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
