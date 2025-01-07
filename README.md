@@ -1,7 +1,7 @@
 # User Interface Android Application - "The Lion King"
 
 ## **Overview**
-This project is an Android application designed for a smooth and interactive movie ticket booking experience. The app enables users to select a movie theater, pick a date, choose ticket quantities, and review their order with animations and responsive UI components.
+This project is an Android application designed for a smooth and interactive movie ticket booking experience. The app enables users to select a movie theater, pick a date, choose ticket quantities and review their order with animations and responsive UI components.
 
 ---
 
