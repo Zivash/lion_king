@@ -30,12 +30,16 @@ This project is an Android application designed for a smooth and interactive mov
 
 ## **Screenshots**
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/b7f188ff-f624-4743-828f-bbef7cfe32ac" alt="Home Page Screenshot" width="200" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/293d4538-eba4-4b13-86b9-72df65ce4808" alt="Ticket Selection Screenshot" width="200" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/6e223e35-7c91-4f2b-a64d-cd8e3e35d13a" alt="Order Confirmation Screenshot" width="200" />
-</div>
-
-
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b7f188ff-f624-4743-828f-bbef7cfe32ac" alt="Home Page Screenshot" width="200" style="margin: 10px;" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/293d4538-eba4-4b13-86b9-72df65ce4808" alt="Ticket Selection Screenshot" width="200" style="margin: 10px;" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/6e223e35-7c91-4f2b-a64d-cd8e3e35d13a" alt="Order Confirmation Screenshot" width="200" style="margin: 10px;" />
+    </td>
+  </tr>
+</table>
